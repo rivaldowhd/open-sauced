@@ -27,7 +27,7 @@ function AddRepoForm({goalsId, onGoalAdded, goals}) {
 
     if (!isValid) {
       urlRef.current.focus();
-      setError("Invalid GitHub repository!");
+      setError("Oops! Invalid GitHub repository!");
       return;
     }
 
